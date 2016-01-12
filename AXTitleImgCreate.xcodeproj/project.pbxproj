@@ -15,6 +15,8 @@
 		08AD216C1C448B9E00AF89A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08AD216A1C448B9E00AF89A1 /* LaunchScreen.storyboard */; };
 		08AD21771C448B9E00AF89A1 /* AXTitleImgCreateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08AD21761C448B9E00AF89A1 /* AXTitleImgCreateTests.m */; };
 		08AD21821C448B9E00AF89A1 /* AXTitleImgCreateUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08AD21811C448B9E00AF89A1 /* AXTitleImgCreateUITests.m */; };
+		08AD21911C448BB200AF89A1 /* AXCreateTitleImgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08AD21901C448BB200AF89A1 /* AXCreateTitleImgViewController.m */; };
+		08AD21941C448BE000AF89A1 /* UIView+addView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08AD21931C448BE000AF89A1 /* UIView+addView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		08AD217D1C448B9E00AF89A1 /* AXTitleImgCreateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AXTitleImgCreateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08AD21811C448B9E00AF89A1 /* AXTitleImgCreateUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AXTitleImgCreateUITests.m; sourceTree = "<group>"; };
 		08AD21831C448B9E00AF89A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08AD218F1C448BB200AF89A1 /* AXCreateTitleImgViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXCreateTitleImgViewController.h; sourceTree = "<group>"; };
+		08AD21901C448BB200AF89A1 /* AXCreateTitleImgViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXCreateTitleImgViewController.m; sourceTree = "<group>"; };
+		08AD21921C448BE000AF89A1 /* UIView+addView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+addView.h"; sourceTree = "<group>"; };
+		08AD21931C448BE000AF89A1 /* UIView+addView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+addView.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,10 @@
 		08AD215B1C448B9E00AF89A1 /* AXTitleImgCreate */ = {
 			isa = PBXGroup;
 			children = (
+				08AD218F1C448BB200AF89A1 /* AXCreateTitleImgViewController.h */,
+				08AD21901C448BB200AF89A1 /* AXCreateTitleImgViewController.m */,
+				08AD21921C448BE000AF89A1 /* UIView+addView.h */,
+				08AD21931C448BE000AF89A1 /* UIView+addView.m */,
 				08AD215F1C448B9E00AF89A1 /* AppDelegate.h */,
 				08AD21601C448B9E00AF89A1 /* AppDelegate.m */,
 				08AD21621C448B9E00AF89A1 /* ViewController.h */,
@@ -270,7 +280,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08AD21911C448BB200AF89A1 /* AXCreateTitleImgViewController.m in Sources */,
 				08AD21641C448B9E00AF89A1 /* ViewController.m in Sources */,
+				08AD21941C448BE000AF89A1 /* UIView+addView.m in Sources */,
 				08AD21611C448B9E00AF89A1 /* AppDelegate.m in Sources */,
 				08AD215E1C448B9E00AF89A1 /* main.m in Sources */,
 			);

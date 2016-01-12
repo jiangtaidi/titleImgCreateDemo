@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "AXCreateTitleImgViewController.h"
 
 @interface ViewController ()
 
@@ -23,5 +24,39 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)btnClicked:(id)sender {
+    AXCreateTitleImgViewController *createTitleImgVc = [[AXCreateTitleImgViewController alloc] init];
+    __weak typeof(self) sf = self;
+    createTitleImgVc.block = ^(UIImage *img)
+    {
+        [sf createImgDisplayViewWith:img];
+    };
+    [self.navigationController pushViewController:createTitleImgVc animated:YES];
+}
+
+-(void)createImgDisplayViewWith:(UIImage*)img
+{
+    UIImageView *imgView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 100, img.size.width, img.size.height)];
+    imgView.image = img;
+//    imgView.backgroundColor = [UIColor blackColor];
+    [self.view addSubview:imgView];
+}
 
 @end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
